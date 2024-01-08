@@ -6,7 +6,7 @@ from fastapi.testclient import TestClient
 
 app = FastAPI(
     title="Docs",
-    summary="A sample application created for test assignment for Elevatus",
+    summary="A sample application created for implementation of repository pattern using fastapi",
 )
 
 app.include_router(router)
